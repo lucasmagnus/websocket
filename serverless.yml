@@ -1,4 +1,10 @@
+service: projects
+frameworkVersion: '3'
+
 provider:
+  name: aws
+  runtime: nodejs12.x
+
   iamRoleStatements:
     - Effect: "Allow"
       Action:
